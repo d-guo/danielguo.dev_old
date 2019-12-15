@@ -1,0 +1,81 @@
+<h1><span data-i18n="skills.my_skills">Coursework</span></h1>
+Here are some of the courses I've taken. The courses with names ending in "CS" (eg. "MATHCS", "CMPTGCS") are taken within the College of Creative Studies. Courses are numbered as follows: 0-99 are lower division, 100-199 are upper division, and 200-299 are graduate courses.
+
+{% for quarter in site.data.index.coursework %}
+    <div class="row">
+            <div class="col">
+                <h3 style="margin: 0">{{ quarter.name }}</h3>
+                
+                {% if quarter.c0 and quarter.d0 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c0 }} <br> &nbsp; &nbsp; {{ quarter.d0 }}</p>
+                {% endif %}
+                {% if quarter.c0 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c0 }}</p>
+                {% endif %}
+                
+                {% if quarter.c1 and quarter.d1 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c1 }} <br> &nbsp; &nbsp; {{ quarter.d1 }}</p>
+                {% endif %}
+                {% if quarter.c1 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c1 }}</p>
+                {% endif %}
+
+                {% if quarter.c2 and quarter.d2 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c2 }} <br> &nbsp; &nbsp; {{ quarter.d2 }}</p>
+                {% endif %}
+                {% if quarter.c2 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c2 }}</p>
+                {% endif %}
+
+                {% if quarter.c3 and quarter.d3 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c3 }} <br> &nbsp; &nbsp; {{ quarter.d3 }}</p>
+                {% endif %}
+                {% if quarter.c3 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c3 }}</p>
+                {% endif %}
+
+                {% if quarter.c4 and quarter.d4 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c4 }} <br> &nbsp; &nbsp; {{ quarter.d4 }}</p>
+                {% endif %}
+                {% if quarter.c4 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c4 }}</p>
+                {% endif %}
+
+                {% if quarter.c5 and quarter.d5 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c5 }} <br> &nbsp; &nbsp; {{ quarter.d5 }}</p>
+                {% endif %}
+                {% if quarter.c5 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c5 }}</p>
+                {% endif %}
+
+                {% if quarter.c6 and quarter.d6 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c6 }} <br> &nbsp; &nbsp; {{ quarter.d6 }}</p>
+                {% endif %}
+                {% if quarter.c6 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c6 }}</p>
+                {% endif %}
+
+                {% if quarter.c7 and quarter.d7 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c7 }} <br> &nbsp; &nbsp; {{ quarter.d7 }}</p>
+                {% endif %}
+                {% if quarter.c7 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c7 }}</p>
+                {% endif %}
+
+                {% if quarter.c8 and quarter.d8 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c8 }} <br> &nbsp; &nbsp; {{ quarter.d8 }}</p>
+                {% endif %}
+                {% if quarter.c8 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c8 }}</p>
+                {% endif %}
+
+                {% if quarter.c9 and quarter.d9 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c9 }} <br> &nbsp; &nbsp; {{ quarter.d9 }}</p>
+                {% endif %}
+                {% if quarter.c9 %}
+                <p style="margin: 0"> &#8226; {{ quarter.c9 }}</p>
+                {% endif %}
+
+            </div>
+    </div>
+{% endfor %}

@@ -1,0 +1,57 @@
+- name: Fall 2019
+  c0: CMPSC 209 Logic in Computer Science
+  d0:
+  c1: CMPSC 140 Parallel Scientific Computing
+  d1:
+  c2: CMPTGCS 130A Distributed Ledges and Consensus Protocols
+  d2:
+  c3: MATH 108B Advanced Linear Algebra
+  d3:
+  c4: MATH 118A Intro. to Real Analysis
+  d4:
+  c5: MATH 111A Intro. to Abstract Algebra
+  d5:
+  c6: PHIL 100F Intro. to Philosophy of Science
+  d6:
+
+- name: Spring 2019
+  c0: CMPSC 130B Data Structures and Algorithms
+  d0:
+  c1: CMPSC 165B Machine Learning
+  d1:
+  c2: CMPSC 138 Automata and Formal Languages
+  d2:
+  c3: MATH 108A Intro. to Linear Algebra
+  d3:
+  c4: MATH 116 Combinatorial Analysis
+  d4:
+  c5: MATHCS 121 Probability
+  d5:
+
+- name: Winter 2019
+  c0: CMPSC 130A Data Structures and Algorithms
+  d0:
+  c1: CMPTGCS 1B Computer Programming and Organization
+  d1:
+  c2: CMPTGCS 1L Programming Lab
+  d2:
+  c3: CMPTGCS 10 Computer Science Colloquium
+  d3:
+  c4: MATHCS 117 Intro. to Analysis
+  d4:
+  c5: MATHCS 120 Special Topics
+  d6:
+  c6: MATHCS 101B Problem Solving II
+  d6:
+
+- name: Fall 2018
+  c0: CMPTGCS 1A Computer Programming and Organization
+  d0: 
+  c1: CMPTGCS 1L Programming Lab
+  d1:
+  c2: CMPTGCS 2 Foundations of Computer Science
+  d2:
+  c3: MATHCS 120 Special Topics
+  d3:
+  c4: MATHCS 101A Problem Solving I
+  d4:

@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}[letterpaper]
+
+\addtolength{\topmargin}{-12mm}
+\addtolength{\oddsidemargin}{-12mm}
+\addtolength{\evensidemargin}{-12mm}
+\addtolength{\textwidth}{24mm}
+\addtolength{\textheight}{12mm}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[thmmarks, amsmath, thref]{ntheorem}
+\usepackage{mathtools}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{xcolor, framed}
+\usepackage{setspace}
+\linespread{1}
+
+\definecolor{shadecolor}{RGB}{225, 225, 225}
+
+\newcommand{\sect}[1]{\noindent \textbf{Section #1}}
+\newcommand{\ex}[1]{\item[\textbf{#1}]}
+\newcommand{\corr}[1]{\indent \textbf{\textit{correction #1}}}
+\newcommand{\set}[1]{\{#1\}}
+\newcommand{\spann}[1]{\text{span}(#1)}
+\newcommand{\dimm}[1]{\text{dim}(#1)}
+\newcommand{\nulll}[1]{\text{null}(#1)}
+\newcommand{\rangee}[1]{\text{range}(#1)}
+\newcommand{\degg}[1]{\text{deg}(#1)}
+\newcommand{\prob}[1]{\mathbb{P}(#1)}
+\newcommand{\expec}[1]{\mathbb{E}[#1]}
+\newcommand{\var}[1]{\text{Var}(#1)}
+\newcommand{\tvs}{\textvisiblespace}
+\newcommand{\comp}{\mathsf{C}}
+\newcommand{\perm}[1]{\text{Perm}(#1)}
+\newcommand{\Alpha}{\mathfrak{A}}
+\newcommand{\itv}{\mathit{v}}
+
+\newtheorem{theorem}{Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\theoremstyle{exercise}
+\newtheorem{exercise}{Exercise}[section]
+
+\theoremstyle{nonumberplain}
+\theoremheaderfont{\itshape}
+\theorembodyfont{\upshape}
+\newtheorem{solution}{Solution}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+
+\begin{document}
+\begin{center}
+{\Large \textbf{An Introduction to Proofs and Proof Techniques}} \\[5mm]
+Daniel Guo \\[4mm]
+December 21, 2019
+\end{center}
+
+\noindent This segment introduces the concept of a proof and the basic proof techniques that are used in discrete math. I include (weak) mathematical induction here because it is a useful technique which I'd like to be able to use in the coming segments. In the future, there will be a segment going into much more detail on induction and well ordering.
+
+\section{What is a Proof?}
+I don't know about a formal definition of a proof, but basically it's an argument which guarantees the truth of a proposition according to certain rules.
+\begin{definition}
+A \textit{proposition} is a statement which can be true or false.
+\end{definition}
+\begin{example}
+dsf
+\end{example}
+\begin{solution}
+trivial
+\end{solution}
+
+\end{document}

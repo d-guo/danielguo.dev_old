@@ -18,12 +18,16 @@ First, we give the statements of the principles.
 #### Well-Ordering Principle
 Any nonempty set of positive integers has a least element.
 
-#### Weak Induction
+
+#### Principle of Induction
+For the two forms of induction, let $P(n)$ be some proposition depending on $n$. For instance, $P(n)$ could be the proposition "there are n people in this room". Then $\forall n \in \mathbb{Z}^{+} P(n)$ means that there are $n$ people in this room for every positive integer $n$ (which is impossible unless you're in an infinitely large room).
+
+##### Weak Induction
 To prove $\forall n \in \mathbb{Z}^{+} P(n)$, we just need to show two steps <br>
 **1.1** Base step: $P(1)$ holds <br>
 **1.2** Inductive step: $P(k)$ implies $P(k + 1)$
 
-#### Strong Induction
+##### Strong Induction
 To prove $\forall n \in \mathbb{Z}^{+} P(n)$, we just need to show two steps <br>
 **2.1** Base step: $P(1)$ holds <br>
 **2.2** Inductive step: $P(1) \land \dots \land P(k)$ implies $P(k + 1)$

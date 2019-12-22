@@ -76,6 +76,7 @@ S = \\{n \mid \lnot P(n)\\}.
 \end{equation}
 We will show that $S = \emptyset$ by contradiction. Suppose $S \neq \emptyset$, so by WOP, there exists some least element in $S$, denote it $k + 1$. Note that $k + 1 \neq 1$, since 2.1 asserts that $P(1)$ holds. Thus, $k + 1 > 1$. Since $k + 1$ is the least element in $S$, this means that $P(1), \dots, P(k)$ are all true. Then, it follows from 2.2 that $P(k + 1)$ must be true as well, which is the desired contradiction. Thus, $S = \emptyset$, and $\forall n \in \mathbb{Z}^{+} P(n)$ holds as desired.
 
+### Concluding Remarks
 This completes the proof of the main statement. The ideas are pretty simple, but I think it's a pretty cool result nonetheless. This is my first write-up of a math related topic, so please feel free to give me feedback (typos, lack of clarity, etc)! It is helpful for me to improve my own writing abilities and will be appreciated. I hope you all enjoyed and were able to learn something!
 
 <sup>1</sup> This can be easily verified with truth tables.

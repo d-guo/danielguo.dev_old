@@ -20,15 +20,15 @@ Any nonempty set of positive integers has a least element.
 
 
 #### Principle of Induction
-For the two forms of induction, let $P(n)$ be some proposition depending on $n$. For instance, $P(n)$ could be the proposition "there are n people in this room". Then "for all $n \in \mathbb{Z}^{+}$, $P(n)$ holds" means "there are $n$ people in this room for every positive integer $n$" (which is impossible unless you're in an infinitely large room).
+For the two forms of induction, let $P(n)$ be some proposition depending on $n$. For instance, $P(n)$ could be the proposition "there are n people in this room". Then "$P(n)$ holds for all $n \in \mathbb{Z}^{+}$" means "there are $n$ people in this room for every positive integer $n$" (which is impossible unless you're in an infinitely large room).
 
 ##### Weak Induction
-To prove that for all $n \in \mathbb{Z}^{+}$, $P(n)$ holds, we just need to show two steps <br>
+To prove that $P(n)$ holds for all $n \in \mathbb{Z}^{+}$, we just need to show two steps <br>
 **1.1** Base step: $P(1)$ holds <br>
 **1.2** Inductive step: $P(k)$ implies $P(k + 1)$
 
 ##### Strong Induction
-To prove that for all $n \in \mathbb{Z}^{+}$, $P(n)$ holds, we just need to show two steps <br>
+To prove that $P(n)$ holds for all $n \in \mathbb{Z}^{+}$, we just need to show two steps <br>
 **2.1** Base step: $P(1)$ holds <br>
 **2.2** Inductive step: $P(1) \land \dots \land P(k)$ implies $P(k + 1)$
 

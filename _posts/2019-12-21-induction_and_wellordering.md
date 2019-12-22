@@ -19,17 +19,17 @@ First, we give the statements of the principles.
 Any nonempty set of positive integers has a least element.
 
 #### Weak Induction
-To prove $\forall n \in \mathbb{Z}^{+} P(n)$, we just need to show two steps
-1. Base step: $P(1)$ holds
-2. Inductive step: $P(k)$ implies $P(k + 1)$
+To prove $\forall n \in \mathbb{Z}^{+} P(n)$, we just need to show two steps <br>
+**1.1** Base step: $P(1)$ holds <br>
+**1.2** Inductive step: $P(k)$ implies $P(k + 1)$
 
 #### Strong Induction
-To prove $\forall n \in \mathbb{Z}^{+} P(n)$, we just need to show two steps
-1. Base step: $P(1)$ holds
-2. Inductive step: $P(1) \land \dots \land P(k)$ implies $P(k + 1)$
+To prove $\forall n \in \mathbb{Z}^{+} P(n)$, we just need to show two steps <br>
+**2.1** Base step: $P(1)$ holds <br>
+**2.2** Inductive step: $P(1) \land \dots \land P(k)$ implies $P(k + 1)$
 
 ### 1. Equivalence of Weak and Strong Induction
-The idea here will be to show that when we are proving a statement of the form $\forall n \in \mathbb{Z}^{+} P(n)$, if we can use one form of induction, then we can also use the other form of induction. From here on, denote (1) and (2) of weak induction as 1.1 and 1.2, respectively, and (1) and (2) of strong induction as 2.1 and 2.2, respectively.
+The idea here will be to show that when we are proving a statement of the form $\forall n \in \mathbb{Z}^{+} P(n)$, if we can use one form of induction, then we can also use the other form of induction.
 
 #### Weak Implies Strong
 First assume we can prove $\forall n \in \mathbb{Z}^{+} P(n)$ using weak induction, so assume 1.1 and 1.2 hold. Our approach will be to show that 2.1 and 2.2 hold as well. Clearly 2.1 holds, since it is the same as 1.1. Though not as obvious, 2.2 logically follows from 1.2. If
@@ -47,7 +47,7 @@ Now assume we can prove $\forall n \in \mathbb{Z}^{+} P(n)$ using strong inducti
 \begin{equation}
 Q(n) = P(1) \land \dots \land P(n).
 \end{equation}
-It is not too difficult to see (by expanding out the conjunctions) that $\forall n \in \mathbb{Z}^{+} P(n)$ is logically equivalent to $\forall n \in \mathbb{Z}^{+} Q(n)$ (meaning one is true if and only if the other is true). Now our goal will be to show that $\forall n \in \mathbb{Z}^{+} Q(n)$ can be proven using weak induction. In other words, we want to show that 1.1 and 1.2 hold for $\forall n \in \mathbb{Z}^{+} Q(n)$. See that $Q(1)$ is the same as $P(1)$, so 1.1 holds.
+It is not too difficult to see (by expanding out the conjunctions) that $\forall n \in \mathbb{Z}^{+} P(n)$ is logically equivalent to $\forall n \in \mathbb{Z}^{+} Q(n)$ (meaning one is true if and only if the other is true). Now our goal will be to show that $\forall n \in \mathbb{Z}^{+} Q(n)$ can be proven using weak induction. In other words, we want to show that 1.1 and 1.2 hold for $\forall n \in \mathbb{Z}^{+} Q(n)$. It is important to note that now we are looking at 1.1 and 1.2 for the statement involving $Q$, not $P$. See that $Q(1)$ is the same as $P(1)$, so 1.1 holds.
 
 Now by 2.2, we have that $P(1) \land \dots \land P(k)$ implies $P(k + 1)$. Now consider that $A \rightarrow B$ is the same as $A \rightarrow A \land B$. <sup>1</sup> Thus, we can conclude that
 \begin{equation}

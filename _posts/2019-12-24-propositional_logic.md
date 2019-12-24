@@ -2,7 +2,7 @@
 layout: post
 title: A Formal Understanding of Propositional Logic
 excerpt: A formal recursive construction of languages in propositional logic.
-modified: 2019-12-01
+modified: 2019-12-24
 categories: [mathematics]
 comments: true
 pinned: true

@@ -85,4 +85,6 @@ We will show that $S = \emptyset$ by contradiction. Suppose $S \neq \emptyset$, 
 ### Concluding Remarks
 This completes the proof of the main statement. The ideas are pretty simple, but I think it's a pretty cool result nonetheless. This is my first write-up of a math related topic, so please feel free to give me feedback (typos, lack of clarity, etc)! It is helpful for me to improve my own writing abilities and will be appreciated. I hope you all enjoyed and were able to learn something!
 
+##### Footnotes
+
 <sup>1</sup> This can be easily verified with truth tables.

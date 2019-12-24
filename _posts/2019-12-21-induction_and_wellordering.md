@@ -2,7 +2,7 @@
 layout: post
 title: Equivalence of Mathematical Induction and Well-Ordering
 excerpt: Proof that the well-ordering principle and the principle of mathematical induction are logically equivalent.
-modified: 2019-12-21
+modified: 2019-12-24
 categories: [mathematics]
 comments: true
 pinned: true
@@ -67,6 +67,8 @@ It occurs to me that there might be some confusion about why the way we proved t
 for some statement $\forall n \in \mathbb{Z}^{+} P(n)$, if we can prove it using weak induction, then we can also prove it using strong induction.
 </p>
 In other words, we want to show that whenever weak induction works, strong induction also works. So in our proof, we showed that 2.1 and 2.2 would hold if weak induction works. This means that strong induction would conclude that the statement is true; thus, strong induction works as well. The other direction of the problem has a similar reasoning.
+
+**Edit 12/24/2019** Another point of confusion was pointed out to me. How are we equating a theorem and a proof technique? Instead of thinking about the induction principles as proof techniques, it might be useful to think of them as statements. To rephrase weak induction more clearly as a statement, we can say: if 1.1 and 1.2 hold, then $P(n)$ holds for all $n \in \mathbb{Z}^{+}$. This makes it obvious that we are actually proving the logical equivalence of statements.
 
 ### 2. Strong Induction Implies WOP
 We prove this by contradiction, so assume that the well-ordering principle is false. Then there exists some nonempty set $S \subseteq \mathbb{Z}^{+}$, which does not have a least element. Now consider the following statement

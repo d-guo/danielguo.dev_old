@@ -12,6 +12,8 @@ Our main goal is to learn how to construct a formal language in propositional lo
 
 **Definition** A *language* is the set of all well-formed formulas (or wffs) based on some predetermined set of symbols (similar to the alphabet).
 
+What are well-formed formulas? Intuitively, they are the sentences of our language. We will give the formal definition later.
+
 The steps in our construction will be
 1. Stating our set of symbols
 2. Giving meaning to our symbols

@@ -3,7 +3,7 @@ layout: post
 title: The Formal Approach to Propositional Logic
 excerpt: A formal recursive construction of languages in propositional logic.
 modified: 2019-12-01
-categories: [logistics]
+categories: [mathematics]
 comments: true
 pinned: true
 ---

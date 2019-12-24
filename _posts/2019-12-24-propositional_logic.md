@@ -22,7 +22,7 @@ The steps in our construction will be
 Then we will go through a couple fun exercises and proofs about the language we have constructed to gain more understanding.
 
 ### Set of Symbols
-We start with some set of symbols. Don't worry about what they mean for now (also ignore the "Intuitive Purpose" column); we'll get to that later. We choose the following
+We start with some set of symbols. Intuitively, these are like the letters of our language; they are the alphabet upon which we can use to write out sentences. Don't worry about what they mean for now (also ignore the "Intuitive Purpose" column); we'll get to that later. We choose the following
 
 | Symbol | Intuitive Purpose |
 |:-|:-|

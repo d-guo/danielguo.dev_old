@@ -33,7 +33,7 @@
     display: block;
     color: #F36170;
     font-size: 1.75em;
-    text-transform: lowercase;
+    text-transform: none;
   }
   .author_job {
     display: block;
@@ -90,6 +90,35 @@
       margin-top: 1em;
       text-transform: lowercase;
       font-size: 85%;
+      color: $secondary;
+      &:hover,
+      &:focus {
+        color: lighten($secondary, 14%);
+      }
+    }
+  }
+}
+.nav-list-blog-posts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    &:first-child:before {
+      content: "Sort by:";
+    }
+    &:after {
+      content: '/';
+    }
+    &:last-child:after {
+      content: '';
+    }
+    & a {
+      margin-top: 1em;
+      text-transform: lowercase;
+      font-size: 100%;
       color: $secondary;
       &:hover,
       &:focus {

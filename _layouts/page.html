@@ -3,9 +3,21 @@ layout: default
 ---
 
   <div id="page">
+    <!--
     <header class="page-header">
-      <h2>{{ page.title }}</h2>
+      <h2>Blog Posts</h2>
     </header>
+    -->
+    <nav class="nav">
+      <ul class="nav-list-blog-posts">
+        <li class="nav-item">
+          <a href="{{ site.url }}/archive">date</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ site.url }}/categories">category</a>
+        </li>
+      </ul>
+    </nav>
 
     <article class="page-content">
       {{ content }}

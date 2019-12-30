@@ -39,9 +39,11 @@ To store the keys, we use a *table*, which is basically just an array. The table
 
 **Definition** A *hash function* is some function
 \\[
-    h: U \to \\{0, 1, \dots, m - 1\\}
+    h: U \to \\{0, 1, \dots, m - 1\\},
 \\]
-which "assigns" each key in our key space to some location in our table.
+where $U$ is some set.
+
+We can use this to "assign" each key in our universe $U$ to some location in our table.
 
 One thing to note is that we need to be able to compute $h(x)$ for $x \in U$ in $O(1)$ time. An example of such a hash function could be $h(x) = x \bmod m$. We will talk more about hash functions later, but this pretty much completes everything we need to implement our naive hash table.
 

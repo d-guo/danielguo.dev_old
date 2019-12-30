@@ -18,7 +18,7 @@ The plan is to cover each of the following topics
 5. Perfect Hashing
 
 ### Dictionary
-**Defintion** A *dictionary* is an abstract data type which supports the three following operations
+**Definition** A *dictionary* is an abstract data type which supports the three following operations
 1. Insert $x$. puts $x$ "inside" of the dictionary.
 2. Delete $x$. undoes the insertion of $x$.
 3. Lookup $x$. determines whether or not $x$ is "inside" of the dictionary.

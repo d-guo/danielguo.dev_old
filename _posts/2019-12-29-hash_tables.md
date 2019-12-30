@@ -115,7 +115,7 @@ See that this is exactly the property we refer to when we describe an even sprea
 
 In particular, if $m = n$, then we would expect $< 1$, or $0$ collisions.
 
-#### Constructing Universal Family of Hash Functions
+#### Constructing a Universal Family of Hash Functions
 We now discuss one method to construct a universal family of hash functions. This is called the *Matrix Method*.
 
 Assume that the keys are $u$-bits long, so the size of the universe is $N = 2^{u}$, and also assume that the size of the table is $m = 2^{b}$ (is a power of $2$). $H$ is the set of all $b \times u$ binary matrices. Let $h \in H$ and $x \in U$. Then, $h(x) = hx \bmod 2$ denoting binary matrix vector multiplication. The result is a vector of length $b$, which represents a particular location in the table.

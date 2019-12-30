@@ -84,7 +84,7 @@ Unfortunately, this second point is impossible.
 
 **Claim** For any hash function $h$, we can find a set of keys $S$ of size $M$ such that $h$ sends every key in $S$ to the same location.
 
-**Proof** Consider some set of keys $S'$ of size $(M - 1)m + 1$. By the pigeonhole principle, there must exist some $i \in \\{0, 1, \dots, m - 1\\}$ such that $h$ sends $M$ elements of $S'$ to $i$.
+**Proof** Consider some set of keys $S'$ of size $(M - 1)m + 1$. By the pigeonhole principle, there must exist some $i \in \\{0, 1, \dots, m - 1\\}$ such that $h$ sends $M$ elements of $S'$ to $i$. Then we just let $S$ be the set of these $M$ elements.
 
 This is a pretty big problem. How can we use a good hash function if one doesn't exist? The solution is randomizing our construction of $h$. We will create a *family* of hash functions $H$ such that probabilistically, picking a $h \in H$ will give us the properties we want. In this sense, we want to have conditions on $H$, not each $h \in H$, to guarantee an even spread among $\\{0, 1, \dots, m - 1\\}$.
 

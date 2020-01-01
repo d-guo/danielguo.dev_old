@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h2>Pinned Blog Posts</h2>
+<h2>Pinned Posts</h2>
 
 {% for post in site.posts %}
 {% if post.priority %}
@@ -63,7 +63,7 @@ layout: default
 </section>
 {% endif %}
 {% endfor %}
-
+<h2>Recent Posts</h2>
 
 {% for post in site.posts %}
 {% if post.priority %}

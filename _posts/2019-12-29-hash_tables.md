@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Theory Behind Hash Tables
-excerpt: We dive into how hash tables work from a abstract standpoint.
+excerpt: We dive into how hash tables work from an abstract standpoint.
 modified: 2019-12-29
 categories: [computer science]
 comments: true

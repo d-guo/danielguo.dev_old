@@ -16,7 +16,7 @@
   </script>
 
 {% if page.title %}
-  {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
+  {% capture title %} {{ site.title }} | {{ page.title }} {% endcapture %}
 {% else %}
   {% capture title %}{{ site.title }}{% endcapture %}
 {% endif %}

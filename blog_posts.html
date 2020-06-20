@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: default
 title:  Blog Posts
 permalink: /blog_posts/
 ---
 
 <div class="archive">
+  <h2>Blog Posts</h2>
   <div class="timeline" id="timeline">
     {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y' " %}
     {% for group in posts_by_year %}
@@ -66,7 +67,7 @@ permalink: /blog_posts/
               {% if post.image.credit %}
               <span class="image-credit">Photo Credit: <a href="{{ post.image.creditlink }}">{{ post.image.credit }}</a></span>
               {% endif %}
-            </div><!-- /.image-wrap -->
+            </div>
             {% endif %}
         </section>
         {% endfor %}

@@ -32,13 +32,13 @@
   }
   .author_name {
     display: block;
-    color: #ff8f73;
+    color: $primary;
     font-size: 1.75em;
     text-transform: none;
   }
   .author_job {
     display: block;
-    color: $secondary;
+    color: $trinary;
     font-size: 0.8em;
     font-weight: 700;
     text-transform: uppercase;

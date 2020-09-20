@@ -1,6 +1,12 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: UCSB (under Dr. Paul J. Atzberger)
+
+- name: Semiotic AI
+  link: https://www.semiotic.ai/
+  date: June 2020 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Research and Development Intern
+
+- name: UCSB Research Group (under Dr. Paul J. Atzberger)
   link: http://web.math.ucsb.edu/~atzberg/pmwiki_intranet/index.php?n=AtzbergerHomePage.Homepage?setskin=atzbergerHomepage4
   date: Nov. 2018 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
   job: Undergraduate Researcher
